@@ -1,0 +1,115 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+  }
+
+/* flex box */
+.d-flex{
+    display: flex;
+}
+.d-beteewn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* end flex box */
+
+.d-grid{
+    display: grid;
+}
+.gap{
+    gap:20px;
+}
+/* tihis is link */
+.color{
+    color: black;
+}
+.cpatel{
+    text-transform: capitalize;
+}
+.active{
+    background-color: #ccc;
+}
+
+/* end tihis is link */
+
+.grey{
+    color: var(--grey-color);
+}
+/* this is space */
+.pd{
+    padding: 15px;
+}
+.pd-t{
+    padding-top: 10px;
+}
+.pd-b{
+    padding-bottom: 10px;
+}
+.br-r{
+    border-radius: 6px;
+}
+.mr-t{
+    margin-top: 15px;
+}
+.mr-r{
+    margin-right: 15px;
+}
+.mr-l{
+    margin-left: 15px;
+}
+.mr-b{
+    margin-bottom: 7px;
+}
+.full-w{
+    width: 100%;
+}
+.bg-white{
+    background-color: rgb(255, 255, 255);
+}
+.bg-eee{
+    background-color: #eee;
+}
+
+.relative{
+    position: relative;
+}
+.al-ct{
+    text-align: center;
+}
+.align-center{
+    display: flex;
+    align-items: center;
+}
+.fs{
+    font-size: 14px;
+}
+/* end this is space */
+@media (max-width:767px){
+    .text-c-mobile{
+        text-align: center;
+    }
+    .block-mobile{
+        display: block;
+    }
+}
+.d-block{
+    display: block;
+}
+
+/* @media */
+/* end @media */
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.white{
+    color: white;
+}
+.w-fit{
+    width: fit-content;
+}
